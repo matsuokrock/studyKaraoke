@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Input Word View Controller-->
+        <scene sceneID="XHh-2D-dtx">
+            <objects>
+                <viewController id="fvL-Y1-gAu" customClass="InputWordViewController" customModule="studyKaraoke" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PyM-M2-tOa"/>
+                        <viewControllerLayoutGuide type="bottom" id="S1q-Tw-SaT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="51a-ck-kDc">
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lPS-xl-clS">
+                                <rect key="frame" x="0.0" y="0.0" width="400" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="zjg-YR-DkQ"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem id="zfU-Lx-agH">
+                                        <nil key="title"/>
+                                        <textField key="titleView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="20" id="SUj-J3-jpb">
+                                            <rect key="frame" x="65" y="23" width="270" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                        </textField>
+                                        <barButtonItem key="rightBarButtonItem" title="完了" id="35r-cl-IoQ">
+                                            <connections>
+                                                <action selector="onClickEnterButton:" destination="fvL-Y1-gAu" id="L4t-X2-cuo"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="46" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="gUk-TP-e74">
+                                <rect key="frame" x="0.0" y="60" width="400" height="496"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="RememberWordCustomCell" id="3CK-qg-FoN" customClass="RememberWordCustomCell" customModule="studyKaraoke" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="400" height="46"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3CK-qg-FoN" id="LZ2-fv-JRJ">
+                                            <rect key="frame" x="0.0" y="0.0" width="400" height="45"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hP2-sM-Be0">
+                                                    <rect key="frame" x="18" y="12" width="364" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailingMargin" secondItem="hP2-sM-Be0" secondAttribute="trailing" constant="10" id="0zq-vO-usV"/>
+                                                <constraint firstItem="hP2-sM-Be0" firstAttribute="centerY" secondItem="LZ2-fv-JRJ" secondAttribute="centerY" id="gxe-ns-dnN"/>
+                                                <constraint firstItem="hP2-sM-Be0" firstAttribute="leading" secondItem="LZ2-fv-JRJ" secondAttribute="leadingMargin" constant="10" id="uPc-Bx-TG0"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="wordLabel" destination="hP2-sM-Be0" id="j8n-G2-6Zf"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="fvL-Y1-gAu" id="fSg-fT-xab"/>
+                                    <outlet property="delegate" destination="fvL-Y1-gAu" id="pgj-Z9-yCy"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lPS-xl-clS" firstAttribute="leading" secondItem="gUk-TP-e74" secondAttribute="leading" id="2Kz-da-CgU"/>
+                            <constraint firstItem="lPS-xl-clS" firstAttribute="bottom" secondItem="gUk-TP-e74" secondAttribute="top" id="41G-Z9-LbP"/>
+                            <constraint firstItem="lPS-xl-clS" firstAttribute="top" secondItem="51a-ck-kDc" secondAttribute="top" id="Dvh-qE-qJA"/>
+                            <constraint firstItem="lPS-xl-clS" firstAttribute="leading" secondItem="51a-ck-kDc" secondAttribute="leading" id="JWZ-zG-7ep"/>
+                            <constraint firstItem="S1q-Tw-SaT" firstAttribute="top" secondItem="gUk-TP-e74" secondAttribute="bottom" id="KGs-RL-lrb"/>
+                            <constraint firstAttribute="trailing" secondItem="lPS-xl-clS" secondAttribute="trailing" id="MRc-Ct-wUe"/>
+                            <constraint firstItem="gUk-TP-e74" firstAttribute="bottom" secondItem="S1q-Tw-SaT" secondAttribute="top" id="eoA-Wf-aO4"/>
+                            <constraint firstItem="lPS-xl-clS" firstAttribute="trailing" secondItem="gUk-TP-e74" secondAttribute="trailing" id="hvH-4t-qei"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gUk-TP-e74" secondAttribute="trailing" id="rZb-76-lhC"/>
+                            <constraint firstItem="gUk-TP-e74" firstAttribute="top" secondItem="lPS-xl-clS" secondAttribute="bottom" id="uWg-cZ-dSk"/>
+                            <constraint firstItem="gUk-TP-e74" firstAttribute="leading" secondItem="51a-ck-kDc" secondAttribute="leadingMargin" id="yYZ-O6-I4r"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="rZb-76-lhC"/>
+                                <exclude reference="uWg-cZ-dSk"/>
+                                <exclude reference="yYZ-O6-I4r"/>
+                                <exclude reference="KGs-RL-lrb"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="400" height="600"/>
+                    <connections>
+                        <outlet property="InputTextField" destination="SUj-J3-jpb" id="C8M-vz-u9L"/>
+                        <outlet property="enterButton" destination="35r-cl-IoQ" id="Oij-3N-r45"/>
+                        <outlet property="tableView" destination="gUk-TP-e74" id="dgE-nm-qQn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VHo-UM-iyL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="407" y="272"/>
+        </scene>
+    </scenes>
+</document>
