@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Search Song View Controller-->
+        <scene sceneID="A0g-Eo-8LR">
+            <objects>
+                <viewController storyboardIdentifier="searchSong" id="kWK-s7-ATN" customClass="SearchSongViewController" customModule="studyKaraoke" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pfY-Uf-7DZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="r6j-ap-MDy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hId-ww-432">
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a1k-yv-b1p">
+                                <rect key="frame" x="125" y="285" width="150" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="LCg-Qh-NMq"/>
+                                    <constraint firstAttribute="width" constant="150" id="hch-bK-M7s"/>
+                                </constraints>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickNextButton:" destination="kWK-s7-ATN" eventType="touchUpInside" id="crb-mt-7a8"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5tH-Io-3iA">
+                                <rect key="frame" x="125" y="235" width="150" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="2pY-I4-7pd"/>
+                                    <constraint firstAttribute="height" constant="30" id="Hrf-Ru-3uA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="O3o-BM-n11">
+                                <rect key="frame" x="125" y="157" width="150" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="5MK-wF-RE6"/>
+                                    <constraint firstAttribute="height" constant="30" id="nqP-wO-nrb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plese tell this song's artist." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ncy-sr-SXr">
+                                <rect key="frame" x="70" y="206" width="260" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plese input your favorit song." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JLw-vJ-oAr">
+                                <rect key="frame" x="70" y="128" width="260" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5tH-Io-3iA" firstAttribute="top" secondItem="Ncy-sr-SXr" secondAttribute="bottom" constant="8" id="0Bw-XX-LLu"/>
+                            <constraint firstItem="a1k-yv-b1p" firstAttribute="top" secondItem="5tH-Io-3iA" secondAttribute="bottom" constant="26" id="3UN-hx-Mdj"/>
+                            <constraint firstItem="O3o-BM-n11" firstAttribute="top" secondItem="JLw-vJ-oAr" secondAttribute="bottom" constant="8" id="433-lA-9IG"/>
+                            <constraint firstItem="O3o-BM-n11" firstAttribute="leading" secondItem="hId-ww-432" secondAttribute="leadingMargin" constant="105" id="FAN-Dr-DSs"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ncy-sr-SXr" secondAttribute="trailing" constant="50" id="FIE-s2-hE1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="JLw-vJ-oAr" secondAttribute="trailing" constant="50" id="IBs-aH-OY8"/>
+                            <constraint firstItem="JLw-vJ-oAr" firstAttribute="leading" secondItem="hId-ww-432" secondAttribute="leadingMargin" constant="50" id="Jgf-45-J1c"/>
+                            <constraint firstItem="a1k-yv-b1p" firstAttribute="top" secondItem="5tH-Io-3iA" secondAttribute="bottom" constant="20" id="NJ0-bF-L7E"/>
+                            <constraint firstItem="a1k-yv-b1p" firstAttribute="top" secondItem="5tH-Io-3iA" secondAttribute="bottom" constant="20" id="cLq-Eh-V04"/>
+                            <constraint firstItem="a1k-yv-b1p" firstAttribute="centerX" secondItem="hId-ww-432" secondAttribute="centerX" id="dPK-n6-n1x"/>
+                            <constraint firstItem="5tH-Io-3iA" firstAttribute="leading" secondItem="hId-ww-432" secondAttribute="leadingMargin" constant="105" id="ihi-dh-K5O"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5tH-Io-3iA" secondAttribute="trailing" constant="105" id="jvb-Uh-F5A"/>
+                            <constraint firstItem="a1k-yv-b1p" firstAttribute="centerY" secondItem="hId-ww-432" secondAttribute="centerY" id="kUA-5i-23I"/>
+                            <constraint firstItem="Ncy-sr-SXr" firstAttribute="leading" secondItem="hId-ww-432" secondAttribute="leadingMargin" constant="50" id="x94-Bf-qXy"/>
+                            <constraint firstItem="Ncy-sr-SXr" firstAttribute="top" secondItem="O3o-BM-n11" secondAttribute="bottom" constant="19" id="xLJ-Q6-eXm"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="O3o-BM-n11" secondAttribute="trailing" constant="105" id="zjC-pl-PZx"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="3UN-hx-Mdj"/>
+                                <exclude reference="cLq-Eh-V04"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="400" height="600"/>
+                    <connections>
+                        <outlet property="inputArtistNameTextField" destination="5tH-Io-3iA" id="rUh-LW-TW8"/>
+                        <outlet property="inputSongNameTextField" destination="O3o-BM-n11" id="Qbg-fQ-BhU"/>
+                        <outlet property="nextButton" destination="a1k-yv-b1p" id="DL7-04-A11"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FwW-9Q-Jos" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="566" y="26"/>
+        </scene>
+    </scenes>
+</document>
