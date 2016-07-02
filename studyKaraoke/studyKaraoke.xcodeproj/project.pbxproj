@@ -15,6 +15,7 @@
 		703FF36E1D27E56400BB9026 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 703FF36C1D27E56400BB9026 /* LaunchScreen.storyboard */; };
 		703FF3791D27E56500BB9026 /* studyKaraokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703FF3781D27E56500BB9026 /* studyKaraokeTests.swift */; };
 		703FF3841D27E56500BB9026 /* studyKaraokeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703FF3831D27E56500BB9026 /* studyKaraokeUITests.swift */; };
+		703FF3921D27E6AB00BB9026 /* login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 703FF3911D27E6AB00BB9026 /* login.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		703FF37F1D27E56500BB9026 /* studyKaraokeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = studyKaraokeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		703FF3831D27E56500BB9026 /* studyKaraokeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studyKaraokeUITests.swift; sourceTree = "<group>"; };
 		703FF3851D27E56500BB9026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		703FF3911D27E6AB00BB9026 /* login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = login.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				703FF3601D27E56400BB9026 /* AppDelegate.swift */,
 				703FF3621D27E56400BB9026 /* ViewController.swift */,
 				703FF3641D27E56400BB9026 /* Main.storyboard */,
+				703FF3911D27E6AB00BB9026 /* login.storyboard */,
 				703FF36A1D27E56400BB9026 /* Assets.xcassets */,
 				703FF36C1D27E56400BB9026 /* LaunchScreen.storyboard */,
 				703FF36F1D27E56500BB9026 /* Info.plist */,
@@ -235,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				703FF3921D27E6AB00BB9026 /* login.storyboard in Resources */,
 				703FF36E1D27E56400BB9026 /* LaunchScreen.storyboard in Resources */,
 				703FF36B1D27E56400BB9026 /* Assets.xcassets in Resources */,
 				703FF3661D27E56400BB9026 /* Main.storyboard in Resources */,
