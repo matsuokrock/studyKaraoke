@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		703FF3611D27E56400BB9026 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703FF3601D27E56400BB9026 /* AppDelegate.swift */; };
+		703FF3631D27E56400BB9026 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703FF3621D27E56400BB9026 /* ViewController.swift */; };
+		703FF3661D27E56400BB9026 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 703FF3641D27E56400BB9026 /* Main.storyboard */; };
+		703FF3691D27E56400BB9026 /* studyKaraoke.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 703FF3671D27E56400BB9026 /* studyKaraoke.xcdatamodeld */; };
+		703FF36B1D27E56400BB9026 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 703FF36A1D27E56400BB9026 /* Assets.xcassets */; };
+		703FF36E1D27E56400BB9026 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 703FF36C1D27E56400BB9026 /* LaunchScreen.storyboard */; };
+		703FF3791D27E56500BB9026 /* studyKaraokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703FF3781D27E56500BB9026 /* studyKaraokeTests.swift */; };
+		703FF3841D27E56500BB9026 /* studyKaraokeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703FF3831D27E56500BB9026 /* studyKaraokeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		703FF3751D27E56500BB9026 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 703FF3551D27E56300BB9026 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 703FF35C1D27E56300BB9026;
+			remoteInfo = studyKaraoke;
+		};
+		703FF3801D27E56500BB9026 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 703FF3551D27E56300BB9026 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 703FF35C1D27E56300BB9026;
+			remoteInfo = studyKaraoke;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		703FF35D1D27E56300BB9026 /* studyKaraoke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = studyKaraoke.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		703FF3601D27E56400BB9026 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		703FF3621D27E56400BB9026 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		703FF3651D27E56400BB9026 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		703FF3681D27E56400BB9026 /* studyKaraoke.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = studyKaraoke.xcdatamodel; sourceTree = "<group>"; };
+		703FF36A1D27E56400BB9026 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		703FF36D1D27E56400BB9026 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		703FF36F1D27E56500BB9026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		703FF3741D27E56500BB9026 /* studyKaraokeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = studyKaraokeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		703FF3781D27E56500BB9026 /* studyKaraokeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studyKaraokeTests.swift; sourceTree = "<group>"; };
+		703FF37A1D27E56500BB9026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		703FF37F1D27E56500BB9026 /* studyKaraokeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = studyKaraokeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		703FF3831D27E56500BB9026 /* studyKaraokeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studyKaraokeUITests.swift; sourceTree = "<group>"; };
+		703FF3851D27E56500BB9026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		703FF35A1D27E56300BB9026 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		703FF3711D27E56500BB9026 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		703FF37C1D27E56500BB9026 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		703FF3541D27E56300BB9026 = {
+			isa = PBXGroup;
+			children = (
+				703FF35F1D27E56400BB9026 /* studyKaraoke */,
+				703FF3771D27E56500BB9026 /* studyKaraokeTests */,
+				703FF3821D27E56500BB9026 /* studyKaraokeUITests */,
+				703FF35E1D27E56300BB9026 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		703FF35E1D27E56300BB9026 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				703FF35D1D27E56300BB9026 /* studyKaraoke.app */,
+				703FF3741D27E56500BB9026 /* studyKaraokeTests.xctest */,
+				703FF37F1D27E56500BB9026 /* studyKaraokeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		703FF35F1D27E56400BB9026 /* studyKaraoke */ = {
+			isa = PBXGroup;
+			children = (
+				703FF3601D27E56400BB9026 /* AppDelegate.swift */,
+				703FF3621D27E56400BB9026 /* ViewController.swift */,
+				703FF3641D27E56400BB9026 /* Main.storyboard */,
+				703FF36A1D27E56400BB9026 /* Assets.xcassets */,
+				703FF36C1D27E56400BB9026 /* LaunchScreen.storyboard */,
+				703FF36F1D27E56500BB9026 /* Info.plist */,
+				703FF3671D27E56400BB9026 /* studyKaraoke.xcdatamodeld */,
+			);
+			path = studyKaraoke;
+			sourceTree = "<group>";
+		};
+		703FF3771D27E56500BB9026 /* studyKaraokeTests */ = {
+			isa = PBXGroup;
+			children = (
+				703FF3781D27E56500BB9026 /* studyKaraokeTests.swift */,
+				703FF37A1D27E56500BB9026 /* Info.plist */,
+			);
+			path = studyKaraokeTests;
+			sourceTree = "<group>";
+		};
+		703FF3821D27E56500BB9026 /* studyKaraokeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				703FF3831D27E56500BB9026 /* studyKaraokeUITests.swift */,
+				703FF3851D27E56500BB9026 /* Info.plist */,
+			);
+			path = studyKaraokeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		703FF35C1D27E56300BB9026 /* studyKaraoke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 703FF3881D27E56500BB9026 /* Build configuration list for PBXNativeTarget "studyKaraoke" */;
+			buildPhases = (
+				703FF3591D27E56300BB9026 /* Sources */,
+				703FF35A1D27E56300BB9026 /* Frameworks */,
+				703FF35B1D27E56300BB9026 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = studyKaraoke;
+			productName = studyKaraoke;
+			productReference = 703FF35D1D27E56300BB9026 /* studyKaraoke.app */;
+			productType = "com.apple.product-type.application";
+		};
+		703FF3731D27E56500BB9026 /* studyKaraokeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 703FF38B1D27E56500BB9026 /* Build configuration list for PBXNativeTarget "studyKaraokeTests" */;
+			buildPhases = (
+				703FF3701D27E56500BB9026 /* Sources */,
+				703FF3711D27E56500BB9026 /* Frameworks */,
+				703FF3721D27E56500BB9026 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				703FF3761D27E56500BB9026 /* PBXTargetDependency */,
+			);
+			name = studyKaraokeTests;
+			productName = studyKaraokeTests;
+			productReference = 703FF3741D27E56500BB9026 /* studyKaraokeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		703FF37E1D27E56500BB9026 /* studyKaraokeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 703FF38E1D27E56500BB9026 /* Build configuration list for PBXNativeTarget "studyKaraokeUITests" */;
+			buildPhases = (
+				703FF37B1D27E56500BB9026 /* Sources */,
+				703FF37C1D27E56500BB9026 /* Frameworks */,
+				703FF37D1D27E56500BB9026 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				703FF3811D27E56500BB9026 /* PBXTargetDependency */,
+			);
+			name = studyKaraokeUITests;
+			productName = studyKaraokeUITests;
+			productReference = 703FF37F1D27E56500BB9026 /* studyKaraokeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		703FF3551D27E56300BB9026 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = x;
+				TargetAttributes = {
+					703FF35C1D27E56300BB9026 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = D35A49N68W;
+					};
+					703FF3731D27E56500BB9026 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = D35A49N68W;
+						TestTargetID = 703FF35C1D27E56300BB9026;
+					};
+					703FF37E1D27E56500BB9026 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = D35A49N68W;
+						TestTargetID = 703FF35C1D27E56300BB9026;
+					};
+				};
+			};
+			buildConfigurationList = 703FF3581D27E56300BB9026 /* Build configuration list for PBXProject "studyKaraoke" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 703FF3541D27E56300BB9026;
+			productRefGroup = 703FF35E1D27E56300BB9026 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				703FF35C1D27E56300BB9026 /* studyKaraoke */,
+				703FF3731D27E56500BB9026 /* studyKaraokeTests */,
+				703FF37E1D27E56500BB9026 /* studyKaraokeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		703FF35B1D27E56300BB9026 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				703FF36E1D27E56400BB9026 /* LaunchScreen.storyboard in Resources */,
+				703FF36B1D27E56400BB9026 /* Assets.xcassets in Resources */,
+				703FF3661D27E56400BB9026 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		703FF3721D27E56500BB9026 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		703FF37D1D27E56500BB9026 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		703FF3591D27E56300BB9026 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				703FF3631D27E56400BB9026 /* ViewController.swift in Sources */,
+				703FF3611D27E56400BB9026 /* AppDelegate.swift in Sources */,
+				703FF3691D27E56400BB9026 /* studyKaraoke.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		703FF3701D27E56500BB9026 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				703FF3791D27E56500BB9026 /* studyKaraokeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		703FF37B1D27E56500BB9026 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				703FF3841D27E56500BB9026 /* studyKaraokeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		703FF3761D27E56500BB9026 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 703FF35C1D27E56300BB9026 /* studyKaraoke */;
+			targetProxy = 703FF3751D27E56500BB9026 /* PBXContainerItemProxy */;
+		};
+		703FF3811D27E56500BB9026 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 703FF35C1D27E56300BB9026 /* studyKaraoke */;
+			targetProxy = 703FF3801D27E56500BB9026 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		703FF3641D27E56400BB9026 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				703FF3651D27E56400BB9026 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		703FF36C1D27E56400BB9026 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				703FF36D1D27E56400BB9026 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		703FF3861D27E56500BB9026 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		703FF3871D27E56500BB9026 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		703FF3891D27E56500BB9026 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = studyKaraoke/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = x.studyKaraoke;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		703FF38A1D27E56500BB9026 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = studyKaraoke/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = x.studyKaraoke;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		703FF38C1D27E56500BB9026 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = studyKaraokeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = x.studyKaraokeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/studyKaraoke.app/studyKaraoke";
+			};
+			name = Debug;
+		};
+		703FF38D1D27E56500BB9026 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = studyKaraokeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = x.studyKaraokeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/studyKaraoke.app/studyKaraoke";
+			};
+			name = Release;
+		};
+		703FF38F1D27E56500BB9026 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = studyKaraokeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = x.studyKaraokeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = studyKaraoke;
+			};
+			name = Debug;
+		};
+		703FF3901D27E56500BB9026 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = studyKaraokeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = x.studyKaraokeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = studyKaraoke;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		703FF3581D27E56300BB9026 /* Build configuration list for PBXProject "studyKaraoke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				703FF3861D27E56500BB9026 /* Debug */,
+				703FF3871D27E56500BB9026 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		703FF3881D27E56500BB9026 /* Build configuration list for PBXNativeTarget "studyKaraoke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				703FF3891D27E56500BB9026 /* Debug */,
+				703FF38A1D27E56500BB9026 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		703FF38B1D27E56500BB9026 /* Build configuration list for PBXNativeTarget "studyKaraokeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				703FF38C1D27E56500BB9026 /* Debug */,
+				703FF38D1D27E56500BB9026 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		703FF38E1D27E56500BB9026 /* Build configuration list for PBXNativeTarget "studyKaraokeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				703FF38F1D27E56500BB9026 /* Debug */,
+				703FF3901D27E56500BB9026 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		703FF3671D27E56400BB9026 /* studyKaraoke.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				703FF3681D27E56400BB9026 /* studyKaraoke.xcdatamodel */,
+			);
+			currentVersion = 703FF3681D27E56400BB9026 /* studyKaraoke.xcdatamodel */;
+			path = studyKaraoke.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 703FF3551D27E56300BB9026 /* Project object */;
+}
